@@ -1,20 +1,25 @@
 
 ### Desafio_2 ###
 
-nota_1 = 8
-nota_2 = 10
-nota_3 = 7
-nota_4 = 9
-
-media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
-print("media",media)
+for aluno in range(1,11):
+    print("aluno", aluno)
 
 
-if media >= 7:
-    print("aprovado")
+    nota_1 = float(input("Digite a primeira nota:"))
+    nota_2 = float(input("Digite a segunda nota:"))
+    nota_3 = float(input("Digite a terceira nota:"))
+    nota_4 = float(input("Digite a quarta nota:"))
 
-elif media >= 5 and media < 7:
-    print("recuperação")
+    media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+    print("media",media)
 
-else:
-    print("reprovado")
+
+    if media >= 7:
+        print("aprovado")
+
+    elif media >= 5 and media < 7:
+        print("recuperação")
+
+    else:
+        print("reprovado")
+

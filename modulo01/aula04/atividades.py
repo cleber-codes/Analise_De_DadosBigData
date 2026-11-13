@@ -9,9 +9,9 @@ comprimento = int(input("Comprimento do cômodo:"))
 
 area = largura * comprimento
 
-lampadas = comprimento = comprimento = area /3 
+lampadas = comprimento = comprimento = area / 3 
 
-if potencia <= lampada:
+if potencia <= lampadas:
     print("quantidades de lâmpadas:", lampadas)
 
 else:

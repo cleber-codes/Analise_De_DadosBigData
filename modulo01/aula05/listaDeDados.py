@@ -1,4 +1,4 @@
-## liatas:
+## listas:
 
 compras = ["arroz", "sabão", "pão", "açucar", "feijão"]
 print(compras)

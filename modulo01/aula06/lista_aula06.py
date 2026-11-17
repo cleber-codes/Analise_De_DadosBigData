@@ -59,8 +59,9 @@ for i in filmes_final_semana:
 
 
 filmes = {
-    "Titanic": 1997,
-    "Como treinar o seu dragão": 2010
+    "Titanic": [1997, "Drama/romance"],
+    "Como treinar o seu dragão": 2010,
+    
 
 }
 
